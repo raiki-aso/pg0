@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+}
+#title-nav {
+    background-color:  #d83473;
+    color: black;
+    padding: 10px;
+    width: auto;
+    text-align: center;
+}
+#title-nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+#title-nav a{
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+}
+#title-nav a:hover{
+    background-color: #f0f8ff;
+}
+.profile{
+    display: flex;
+}
+p.img img{
+    width: 390px;
+    height: auto;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.explanation{
+    padding-top: 350px;
+}
+.box {
+    position: relative;
+    margin: 70px;
+    padding: 0.5em 1em;
+    border: solid 3px #7a99cf;
+    display: flex;
+}
+.box .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -27px;
+    left: -3px;
+    padding: auto;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #7a99cf;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
+.box p {
+    margin: 0; 
+    padding: 0;
+}
+p.image img{
+    width: 200px;
+    height: auto;
+    padding-top: 15px;
+}
+p.image2 img{
+    width: 400px;
+    height: auto;
+    padding-top: 15px;
+}
+.explanation2{
+    padding-left: 50px;
+    padding-top: 42px;
+    padding-bottom: 50px;
+}
+p.image3 img{
+    width: 300px;
+    height: auto;
+}
+p.image4 img{
+    width: 350px;
+    height: auto;
+}
+p.image5 img{
+    width: 350px;
+    height: auto;
+}
